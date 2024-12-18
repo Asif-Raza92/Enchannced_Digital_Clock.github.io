@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="clock-container">
+        <h1>Enhanced Digital Clock</h1>
+        <div id="greeting"></div>
+        <input type="text" id="nameInput" placeholder="Enter your name" />
+        <div id="clock"></div>
+        <div id="ampm"></div>
+        <div id="date"></div>
+        <div id="day"></div>
+        <label for="timezone">Select Time Zone:</label>
+        <select id="timezone"></select>
+        <div id="theme-buttons">
+            <button onclick="changeTheme('default')">Default</button>
+            <button onclick="changeTheme('dark')">Dark</button>
+            <button onclick="changeTheme('light')">Light</button>
+        </div>
+        <button id="toggleFormat">Switch to 12-Hour Format</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
