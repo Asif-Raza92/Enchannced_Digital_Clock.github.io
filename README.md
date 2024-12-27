@@ -2,6 +2,7 @@
  
 This project is an Enhanced Digital Clock web application that combines an interactive digital clock with customizable themes and animations. It also supports personalized greetings, time zone selection, and both 12-hour and 24-hour time formats.
 
+Disclaimer : This project is made with the help of Tutorial and I add some features and changed its User interface also take help of Ai to solve only error in projects. 
 Features
 
 Core Features
